@@ -1,0 +1,24 @@
+Introduction:
+
+In the world of Tic-Tac-Toe, competition can be brutal. If you consider yourself a champion of the game, try playing 
+against me.  I will only lose to you once by any combination of inputs in the game (unless you cheat and say ... delete
+a particularly important file).
+
+
+Playing the game:
+
+Let me be 'X' and you be 'O'. I go first. Always. Sorry, I am the one at the disadvantage. 
+
+If this is a new game, I always ask "Shall we play a game?" You must enter Y to play, or either N or Q to chicken out. I
+will move and then show you the board with my move and prompt you to enter the number for the square you wish to mark.
+Once a game has begun, you must finish it to be allowed to quit.
+
+After I move, I will prompt you for your move. You must then indicate your move by entering the number of any unmarked 
+square. If you move, I will redisplay the board with your move and my next move. This playful step repeats
+until a) I win, or b) it's a tie, c) you quit, or d) (God forbid) you win.
+
+
+Winning the game:
+
+You will only win once by a given pattern of moves. I learn quickly. If you like to always win, prepare to be
+disappointed.
