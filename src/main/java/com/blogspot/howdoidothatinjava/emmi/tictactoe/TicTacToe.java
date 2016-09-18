@@ -36,7 +36,6 @@ public class TicTacToe {
 
     private static String gameLog = "./game.log";
     private static Path file = Paths.get(gameLog);
-    private static Integer lastRecordedLoss = 0;
     private static TreeSet<Integer> moveHistory = new TreeSet<>();
     private static Pattern pattern = Pattern.compile(PLAY_OR_NOT);
 
@@ -260,11 +259,6 @@ public class TicTacToe {
             }
         } else {
             loadHistory();
-            if (moveHistory.isEmpty()) {
-                lastRecordedLoss = Integer.valueOf(0);
-            } else {
-                lastRecordedLoss = moveHistory.last();
-            }
         }
     }
 
